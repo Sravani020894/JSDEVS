@@ -12,13 +12,6 @@ function getDrink(){
             document.querySelector('h3').innerHTML = data.drinks[0].strInstructions;
         })
 
-        //    if(document.querySelector('input').value === data.strDrink)  
-        //         button.onClick((data.strDrink) => {
-        //             console.log(data.strDrink);
-        //             document.querySelector('img').src=data.strImageSource;
-        //         }
-
-        //     )
     .catch( (err) => console.log(`error is ${err}`));
 
 } 
